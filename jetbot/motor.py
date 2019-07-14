@@ -6,8 +6,8 @@ import sys
 
 sys.path.append('/opt/nvidia/jetson-gpio/lib/python')
 sys.path.append('/opt/nvidia/jetson-gpio/lib/python/Jetson/GPIO')
-sys.path.append('/home/nvidia/repositories/nano_gpio/gpio_env/lib/python2.7/site-packages/periphery/')
-
+#sys.path.append('/home/nvidia/repositories/nano_gpio/gpio_env/lib/python2.7/site-packages/periphery/')
+sys.path.append('/home/jetbot/.local/lib/python2.7/site-packages')
 class Motor(Configurable):
 
     value = traitlets.Float()
